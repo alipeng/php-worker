@@ -2,6 +2,6 @@ FROM alipeng/php7-cli-alpine
 
 LABEL maintainer Alipeng <alipeng@aliyun.com>
 
-RUN apk add supervisor
+RUN apk --update add supervisor
 
 WORKDIR /var/www
